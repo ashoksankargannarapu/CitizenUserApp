@@ -1,0 +1,34 @@
+api:
+  messages:
+    invalidCredential: Invalid Credentials
+    BothPwdShouldBeSame : Both Pwds should be same
+    pwdUpdateFail : Pwd update failed
+    RegSucess: Registration Success
+    RegFail : Registration Failed
+
+server:
+  port: 9090
+spring:
+  datasource:
+    password: Sravani@123456
+    url: jdbc:mysql://localhost:3306/ashoksankar
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: kfgz ntdx obqq tnoh
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: ashoksankargannarapu@gmail.com
+ 
+ 
+     
+     
